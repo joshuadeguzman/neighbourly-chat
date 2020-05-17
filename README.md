@@ -2,6 +2,11 @@
 
 A simple real-time chat application made using Flutter and socket.io.
 
+
+## Demo
+
+![demo-1](demo_1.gif)
+
 ## Setup
 
 Clone the repo
