@@ -55,14 +55,32 @@ Run the app
 $ flutter run -v
 ```
 
-## Deploy
+## Deployment
 
-Deploy server via Heroku CLI
+### Deploy server via Heroku CLI
+
+Login using Heroku account
 
 ```
 $ heroku login
+```
+
+Enter server directory
+
+```
 $ cd backend
+```
+
+Create a Heroku app
+
+```
 $ heroku create
+```
+
+Deploy server to your Heroku cloud account
+
+```
+$ git push heroku master
 ```
 
 Read more [here](https://devcenter.heroku.com/articles/heroku-cli).
